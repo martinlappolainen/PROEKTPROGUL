@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SQliteLappolainen.MainPage" Title="Отмазки">
+    <StackLayout BackgroundColor="#f4f0e6">
+        <Label Text="Приложение для прогульщиков" HorizontalOptions="Center" FontAttributes="Italic" TextDecorations="Underline" Margin="0,20,0,0" TextColor="#000000" FontSize="Medium" FontFamily="Arial"/>
+        <Button  Text="Добавить отмазку" Clicked="CreateFriend" BackgroundColor="#d9d9f3" TextColor="Black" BorderWidth="1" BorderColor="Black" CornerRadius="10" FontAttributes="Italic" HorizontalOptions="Fill" Padding="0" Margin="20,30,20,20"/>
+        <Button  Text="Список моих отмазок" Clicked="Button_Clicked" BackgroundColor="#d9d9f3" TextColor="Black" BorderWidth="1" BorderColor="Black" CornerRadius="10" FontAttributes="Italic" HorizontalOptions="Fill" Padding="0" Margin="20,0,20,20"/>
+        <Button  Text="Отправить отмазку" Clicked="Button_Clicked_1" BackgroundColor="#d9d9f3" TextColor="Black" BorderWidth="1" BorderColor="Black" CornerRadius="10" FontAttributes="Italic" HorizontalOptions="Fill" Padding="0" Margin="20,0,20,20"/>
+    </StackLayout>
+</ContentPage>
